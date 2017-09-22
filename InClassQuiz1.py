@@ -78,3 +78,11 @@ W = np.hstack((eigen_pair[0][1].reshape(3,1), eigen_pair[1][1].reshape(3,1), eig
 W
 Y = df.dot(W)
 Y
+
+
+# Solution for question 3 part B
+a = np.array([[0,-1],[2,3]], dtype=int)
+
+eigen_val_a ,eigen_vec_a = np.linalg.eig(a)
+eigen_val_a
+eigen_vec_a
